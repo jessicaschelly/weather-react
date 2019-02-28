@@ -1,0 +1,46 @@
+.card-title.medium {
+  font-size: 17px;
+}
+
+.card-subtitle.medium {
+  font-weight: bold;
+}
+
+.author-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.medium .img-container {
+  position: relative;
+}
+
+.medium .img-container img {
+  height: auto;
+}
+
+.medium .img-container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000aa;
+  color: white;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 0px;
+  height: 35px;
+  width: 110px;
+  font-family: "Lato";
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 17px;
+}
+
+.medium .img-container .btn:hover {
+  background-color: #000000bb;
+}

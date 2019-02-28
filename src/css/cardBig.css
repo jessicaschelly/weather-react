@@ -1,0 +1,35 @@
+.card-title.big {
+  font-size: 29px;
+}
+
+.big .img-container {
+  position: relative;
+}
+
+.big .img-container img {
+  height: auto;
+}
+
+.big .img-container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000aa;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 0px;
+  height: 45px;
+  width: 151px;
+  font-family: "Lato";
+  line-height: 22px;
+}
+
+.big .img-container .btn:hover {
+  background-color: #000000bb;
+}
